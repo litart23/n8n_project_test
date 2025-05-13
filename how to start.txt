@@ -1,0 +1,6 @@
+1) launch: docker desktop
+2) in gitbash: docker compose up
+3) in browser go to: http://localhost:5678/
+login page should show ask you to create an account, otherwise use this login/pass:
+admin@example.com
+password

@@ -121,13 +121,6 @@ services:
               count: 1
               capabilities: [gpu]
 
-  ollama-gpu-amd:
-    profiles: ["gpu-amd"]
-    <<: *service-ollama
-    image: ollama/ollama:rocm
-    devices:
-      - "/dev/kfd"
-      - "/dev/dri"
 
   ollama-pull-llama-cpu:
     profiles: ["cpu"]
@@ -140,10 +133,3 @@ services:
     <<: *init-ollama
     depends_on:
       - ollama-gpu
-
-  ollama-pull-llama-gpu-amd:
-    profiles: [gpu-amd]
-    <<: *init-ollama
-    image: ollama/ollama:rocm
-    depends_on:
-     - ollama-gpu-amd
