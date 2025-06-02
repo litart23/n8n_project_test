@@ -44,9 +44,13 @@ docker compose up
 ## ⚡️ Quick start and usage
 
 To open n8n at any time, visit <http://localhost:5678/> in your browser.
+
 Create your account.
+
 On the first page <http://localhost:5678/home/workflows> click "Demo workflow"
+
 On the Editor page click "Open chat" button in the bottom of the screen
+
 In opened text field write your message -- you will see an answer in the chat
 
 
