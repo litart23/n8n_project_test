@@ -2,7 +2,7 @@
   "createdAt": "2024-02-23T16:58:31.616Z",
   "updatedAt": "2024-02-23T16:58:31.616Z",
   "id": "srOnR8PAY3u4RSwb",
-  "name": "Demo workflow",
+  "name": "Demo workflow with qwen2.5:0.5b",
   "active": false,
   "nodes": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "parameters": {
-        "model": "llama3.2:latest",
+        "model": "qwen2.5:0.5b",
         "options": {}
       },
       "id": "3dee878b-d748-4829-ac0a-cfd6705d31e5",
