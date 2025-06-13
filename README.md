@@ -30,7 +30,7 @@ cd self-hosted-ai-starter-kit
 
 ### Running n8n using Docker Compose
 
-If you want to download ollama as a part of a docker container(please notice that recources downloading may take some time):
+If you want to download ollama as a part of a docker container (please notice that recources downloading may take some time):
 
 ```
 docker compose --profile cpu up
